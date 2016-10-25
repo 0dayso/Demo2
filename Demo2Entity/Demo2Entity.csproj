@@ -1,0 +1,350 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3DCB7318-F160-4130-8110-EF4289D19576}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Demo2Entity</RootNamespace>
+    <AssemblyName>Demo2Entity</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\Demo2DAL\Appointment.cs">
+      <Link>Appointment.cs</Link>
+      <DependentUpon>EMR.tt</DependentUpon>
+    </Compile>
+    <Compile Include="..\Demo2DAL\AppointmentLog.cs">
+      <Link>AppointmentLog.cs</Link>
+      <DependentUpon>EMR.tt</DependentUpon>
+    </Compile>
+    <Compile Include="..\Demo2DAL\Branch.cs">
+      <Link>Branch.cs</Link>
+      <DependentUpon>EMR.tt</DependentUpon>
+    </Compile>
+    <Compile Include="..\Demo2DAL\BranchUser.cs">
+      <Link>BranchUser.cs</Link>
+      <DependentUpon>EMR.tt</DependentUpon>
+    </Compile>
+    <Compile Include="..\Demo2DAL\BranchWorkingHour.cs">
+      <Link>BranchWorkingHour.cs</Link>
+      <DependentUpon>EMR.tt</DependentUpon>
+    </Compile>
+    <Compile Include="..\Demo2DAL\Clinic.cs">
+      <Link>Clinic.cs</Link>
+      <DependentUpon>EMR.tt</DependentUpon>
+    </Compile>
+    <Compile Include="..\Demo2DAL\ClinicPractice.cs">
+      <Link>ClinicPractice.cs</Link>
+      <DependentUpon>EMR.tt</DependentUpon>
+    </Compile>
+    <Compile Include="..\Demo2DAL\Company.cs">
+      <Link>Company.cs</Link>
+      <DependentUpon>EMR.tt</DependentUpon>
+    </Compile>
+    <Compile Include="..\Demo2DAL\CompanyClass.cs">
+      <Link>CompanyClass.cs</Link>
+      <DependentUpon>EMR.tt</DependentUpon>
+    </Compile>
+    <Compile Include="..\Demo2DAL\CompanyContract.cs">
+      <Link>CompanyContract.cs</Link>
+      <DependentUpon>EMR.tt</DependentUpon>
+    </Compile>
+    <Compile Include="..\Demo2DAL\CompanyContractCoverage.cs">
+      <Link>CompanyContractCoverage.cs</Link>
+      <DependentUpon>EMR.tt</DependentUpon>
+    </Compile>
+    <Compile Include="..\Demo2DAL\CompanyContractPatientShare.cs">
+      <Link>CompanyContractPatientShare.cs</Link>
+      <DependentUpon>EMR.tt</DependentUpon>
+    </Compile>
+    <Compile Include="..\Demo2DAL\CompanyContractPrice.cs">
+      <Link>CompanyContractPrice.cs</Link>
+      <DependentUpon>EMR.tt</DependentUpon>
+    </Compile>
+    <Compile Include="..\Demo2DAL\EmailTemplate.cs">
+      <Link>EmailTemplate.cs</Link>
+      <DependentUpon>EMR.tt</DependentUpon>
+    </Compile>
+    <Compile Include="..\Demo2DAL\EMR.cs">
+      <Link>EMR.cs</Link>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EMR.tt</DependentUpon>
+    </Compile>
+    <Compile Include="..\Demo2DAL\EventLog.cs">
+      <Link>EventLog.cs</Link>
+      <DependentUpon>EMR.tt</DependentUpon>
+    </Compile>
+    <Compile Include="..\Demo2DAL\Group.cs">
+      <Link>Group.cs</Link>
+      <DependentUpon>EMR.tt</DependentUpon>
+    </Compile>
+    <Compile Include="..\Demo2DAL\GroupBranch.cs">
+      <Link>GroupBranch.cs</Link>
+      <DependentUpon>EMR.tt</DependentUpon>
+    </Compile>
+    <Compile Include="..\Demo2DAL\GroupPermission.cs">
+      <Link>GroupPermission.cs</Link>
+      <DependentUpon>EMR.tt</DependentUpon>
+    </Compile>
+    <Compile Include="..\Demo2DAL\GroupUser.cs">
+      <Link>GroupUser.cs</Link>
+      <DependentUpon>EMR.tt</DependentUpon>
+    </Compile>
+    <Compile Include="..\Demo2DAL\InvoiceTemplate.cs">
+      <Link>InvoiceTemplate.cs</Link>
+      <DependentUpon>EMR.tt</DependentUpon>
+    </Compile>
+    <Compile Include="..\Demo2DAL\Language.cs">
+      <Link>Language.cs</Link>
+      <DependentUpon>EMR.tt</DependentUpon>
+    </Compile>
+    <Compile Include="..\Demo2DAL\Location.cs">
+      <Link>Location.cs</Link>
+      <DependentUpon>EMR.tt</DependentUpon>
+    </Compile>
+    <Compile Include="..\Demo2DAL\Lookup.cs">
+      <Link>Lookup.cs</Link>
+      <DependentUpon>EMR.tt</DependentUpon>
+    </Compile>
+    <Compile Include="..\Demo2DAL\LookupType.cs">
+      <Link>LookupType.cs</Link>
+      <DependentUpon>EMR.tt</DependentUpon>
+    </Compile>
+    <Compile Include="..\Demo2DAL\Patient.cs">
+      <Link>Patient.cs</Link>
+      <DependentUpon>EMR.tt</DependentUpon>
+    </Compile>
+    <Compile Include="..\Demo2DAL\PatientFinancialDetail.cs">
+      <Link>PatientFinancialDetail.cs</Link>
+      <DependentUpon>EMR.tt</DependentUpon>
+    </Compile>
+    <Compile Include="..\Demo2DAL\PatientPrescription.cs">
+      <Link>PatientPrescription.cs</Link>
+      <DependentUpon>EMR.tt</DependentUpon>
+    </Compile>
+    <Compile Include="..\Demo2DAL\PatientsInvoice.cs">
+      <Link>PatientsInvoice.cs</Link>
+      <DependentUpon>EMR.tt</DependentUpon>
+    </Compile>
+    <Compile Include="..\Demo2DAL\PatientsInvoiceItem.cs">
+      <Link>PatientsInvoiceItem.cs</Link>
+      <DependentUpon>EMR.tt</DependentUpon>
+    </Compile>
+    <Compile Include="..\Demo2DAL\PatientsInvoicesPayment.cs">
+      <Link>PatientsInvoicesPayment.cs</Link>
+      <DependentUpon>EMR.tt</DependentUpon>
+    </Compile>
+    <Compile Include="..\Demo2DAL\PatientsLocal.cs">
+      <Link>PatientsLocal.cs</Link>
+      <DependentUpon>EMR.tt</DependentUpon>
+    </Compile>
+    <Compile Include="..\Demo2DAL\PatientsMedicalHistory.cs">
+      <Link>PatientsMedicalHistory.cs</Link>
+      <DependentUpon>EMR.tt</DependentUpon>
+    </Compile>
+    <Compile Include="..\Demo2DAL\PatientTPlan.cs">
+      <Link>PatientTPlan.cs</Link>
+      <DependentUpon>EMR.tt</DependentUpon>
+    </Compile>
+    <Compile Include="..\Demo2DAL\Permission.cs">
+      <Link>Permission.cs</Link>
+      <DependentUpon>EMR.tt</DependentUpon>
+    </Compile>
+    <Compile Include="..\Demo2DAL\Practice.cs">
+      <Link>Practice.cs</Link>
+      <DependentUpon>EMR.tt</DependentUpon>
+    </Compile>
+    <Compile Include="..\Demo2DAL\Service.cs">
+      <Link>Service.cs</Link>
+      <DependentUpon>EMR.tt</DependentUpon>
+    </Compile>
+    <Compile Include="..\Demo2DAL\Setting.cs">
+      <Link>Setting.cs</Link>
+      <DependentUpon>EMR.tt</DependentUpon>
+    </Compile>
+    <Compile Include="..\Demo2DAL\sysdiagram.cs">
+      <Link>sysdiagram.cs</Link>
+      <DependentUpon>EMR.tt</DependentUpon>
+    </Compile>
+    <Compile Include="..\Demo2DAL\SystemTimeZone.cs">
+      <Link>SystemTimeZone.cs</Link>
+      <DependentUpon>EMR.tt</DependentUpon>
+    </Compile>
+    <Compile Include="..\Demo2DAL\TPlanLog.cs">
+      <Link>TPlanLog.cs</Link>
+      <DependentUpon>EMR.tt</DependentUpon>
+    </Compile>
+    <Compile Include="..\Demo2DAL\TreatmentProgram.cs">
+      <Link>TreatmentProgram.cs</Link>
+      <DependentUpon>EMR.tt</DependentUpon>
+    </Compile>
+    <Compile Include="..\Demo2DAL\TreatmentProgramsService.cs">
+      <Link>TreatmentProgramsService.cs</Link>
+      <DependentUpon>EMR.tt</DependentUpon>
+    </Compile>
+    <Compile Include="..\Demo2DAL\User.cs">
+      <Link>User.cs</Link>
+      <DependentUpon>EMR.tt</DependentUpon>
+    </Compile>
+    <Compile Include="..\Demo2DAL\vw_Appointment.cs">
+      <Link>vw_Appointment.cs</Link>
+      <DependentUpon>EMR.tt</DependentUpon>
+    </Compile>
+    <Compile Include="..\Demo2DAL\vw_Branch.cs">
+      <Link>vw_Branch.cs</Link>
+      <DependentUpon>EMR.tt</DependentUpon>
+    </Compile>
+    <Compile Include="..\Demo2DAL\vw_Clinic.cs">
+      <Link>vw_Clinic.cs</Link>
+      <DependentUpon>EMR.tt</DependentUpon>
+    </Compile>
+    <Compile Include="..\Demo2DAL\vw_ClinicPractice.cs">
+      <Link>vw_ClinicPractice.cs</Link>
+      <DependentUpon>EMR.tt</DependentUpon>
+    </Compile>
+    <Compile Include="..\Demo2DAL\vw_CompaniesInvoices.cs">
+      <Link>vw_CompaniesInvoices.cs</Link>
+      <DependentUpon>EMR.tt</DependentUpon>
+    </Compile>
+    <Compile Include="..\Demo2DAL\vw_Company.cs">
+      <Link>vw_Company.cs</Link>
+      <DependentUpon>EMR.tt</DependentUpon>
+    </Compile>
+    <Compile Include="..\Demo2DAL\vw_CompanyContractPrice.cs">
+      <Link>vw_CompanyContractPrice.cs</Link>
+      <DependentUpon>EMR.tt</DependentUpon>
+    </Compile>
+    <Compile Include="..\Demo2DAL\vw_ContractCoverage.cs">
+      <Link>vw_ContractCoverage.cs</Link>
+      <DependentUpon>EMR.tt</DependentUpon>
+    </Compile>
+    <Compile Include="..\Demo2DAL\vw_EventLogs.cs">
+      <Link>vw_EventLogs.cs</Link>
+      <DependentUpon>EMR.tt</DependentUpon>
+    </Compile>
+    <Compile Include="..\Demo2DAL\vw_GroupBranch.cs">
+      <Link>vw_GroupBranch.cs</Link>
+      <DependentUpon>EMR.tt</DependentUpon>
+    </Compile>
+    <Compile Include="..\Demo2DAL\vw_InvoicePayments.cs">
+      <Link>vw_InvoicePayments.cs</Link>
+      <DependentUpon>EMR.tt</DependentUpon>
+    </Compile>
+    <Compile Include="..\Demo2DAL\vw_Invoices.cs">
+      <Link>vw_Invoices.cs</Link>
+      <DependentUpon>EMR.tt</DependentUpon>
+    </Compile>
+    <Compile Include="..\Demo2DAL\vw_InvoiceTreatmentProgramServices.cs">
+      <Link>vw_InvoiceTreatmentProgramServices.cs</Link>
+      <DependentUpon>EMR.tt</DependentUpon>
+    </Compile>
+    <Compile Include="..\Demo2DAL\vw_Location.cs">
+      <Link>vw_Location.cs</Link>
+      <DependentUpon>EMR.tt</DependentUpon>
+    </Compile>
+    <Compile Include="..\Demo2DAL\vw_Patient.cs">
+      <Link>vw_Patient.cs</Link>
+      <DependentUpon>EMR.tt</DependentUpon>
+    </Compile>
+    <Compile Include="..\Demo2DAL\vw_PatientSharedPricelist.cs">
+      <Link>vw_PatientSharedPricelist.cs</Link>
+      <DependentUpon>EMR.tt</DependentUpon>
+    </Compile>
+    <Compile Include="..\Demo2DAL\vw_Prescription.cs">
+      <Link>vw_Prescription.cs</Link>
+      <DependentUpon>EMR.tt</DependentUpon>
+    </Compile>
+    <Compile Include="..\Demo2DAL\vw_Provider.cs">
+      <Link>vw_Provider.cs</Link>
+      <DependentUpon>EMR.tt</DependentUpon>
+    </Compile>
+    <Compile Include="..\Demo2DAL\vw_Service.cs">
+      <Link>vw_Service.cs</Link>
+      <DependentUpon>EMR.tt</DependentUpon>
+    </Compile>
+    <Compile Include="..\Demo2DAL\vw_TreatmentPlan.cs">
+      <Link>vw_TreatmentPlan.cs</Link>
+      <DependentUpon>EMR.tt</DependentUpon>
+    </Compile>
+    <Compile Include="..\Demo2DAL\vw_TreatmentProgram.cs">
+      <Link>vw_TreatmentProgram.cs</Link>
+      <DependentUpon>EMR.tt</DependentUpon>
+    </Compile>
+    <Compile Include="..\Demo2DAL\vw_TreatmentProgramsService.cs">
+      <Link>vw_TreatmentProgramsService.cs</Link>
+      <DependentUpon>EMR.tt</DependentUpon>
+    </Compile>
+    <Compile Include="..\Demo2DAL\vw_User.cs">
+      <Link>vw_User.cs</Link>
+      <DependentUpon>EMR.tt</DependentUpon>
+    </Compile>
+    <Compile Include="..\Demo2DAL\vw_UserGroupBranch.cs">
+      <Link>vw_UserGroupBranch.cs</Link>
+      <DependentUpon>EMR.tt</DependentUpon>
+    </Compile>
+    <Compile Include="..\Demo2DAL\vw_UsersPermission.cs">
+      <Link>vw_UsersPermission.cs</Link>
+      <DependentUpon>EMR.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EncryptionDecryption.cs" />
+    <Compile Include="HotelSearchResult.cs" />
+    <Compile Include="HotelSearchRQ.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="wsclass\LoginStatus.cs" />
+    <Compile Include="wsclass\Token.cs" />
+    <Compile Include="wsclass\UserInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Demo2DAL\EMR.tt">
+      <Link>EMR.tt</Link>
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>EMR.cs</LastGenOutput>
+      <CustomToolNamespace>Demo2Entity</CustomToolNamespace>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Metadata\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="666b2642-cc69-4ae5-85b2-5bddf31d3639" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://wsdl-crt.cert.sabre.com/wsdl/tpfc/HotelPropertyDescriptionLLS2.2.0RQ.wsdl" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="HotelPropertyDescriptionLLS2.xsd" MetadataType="Schema" ID="3820b6c4-1297-4b12-8cde-043dcfa7fdbe" SourceId="1" SourceUrl="http://wsdl-crt.cert.sabre.com/wsdl/tpfc/HotelPropertyDescriptionLLS2.2.0RQRS.xsd" />
+    <MetadataFile FileName="msg-header-2_0.xsd" MetadataType="Schema" ID="e6d86b45-99ee-486e-9147-256ab9c95cf9" SourceId="1" SourceUrl="http://wsdl-crt.cert.sabre.com/wsdl/tpfc/msg-header-2_0.xsd" />
+    <MetadataFile FileName="STL_Header_v.xsd" MetadataType="Schema" ID="1556f3fc-31aa-4510-9411-4b1e58fb6a7d" SourceId="1" SourceUrl="http://wsdl-crt.cert.sabre.com/wsdl/tpfc/STL_Header_v.1.2.0.xsd" />
+    <MetadataFile FileName="STL_For_SabreProtocol_v.xsd" MetadataType="Schema" ID="a57e3527-1db9-4074-8067-3dfbf1ceb7da" SourceId="1" SourceUrl="http://wsdl-crt.cert.sabre.com/wsdl/tpfc/STL_For_SabreProtocol_v.1.2.0.xsd" />
+    <MetadataFile FileName="xml.xsd" MetadataType="Schema" ID="0b50bfb3-c7d8-4f8a-973e-f7e3c13c3cb6" SourceId="1" SourceUrl="http://wsdl-crt.cert.sabre.com/wsdl/tpfc/xml.xsd" />
+    <MetadataFile FileName="sws_common.xsd" MetadataType="Schema" ID="530c0b76-26dc-4b13-b96b-b2ab9707701b" SourceId="1" SourceUrl="http://wsdl-crt.cert.sabre.com/wsdl/tpfc/sws_common.xsd" />
+    <MetadataFile FileName="xlink.xsd" MetadataType="Schema" ID="86dcfcea-b2d1-479c-b9b9-e684cbc7e52e" SourceId="1" SourceUrl="http://wsdl-crt.cert.sabre.com/wsdl/tpfc/xlink.xsd" />
+    <MetadataFile FileName="xmldsig-core-schema.xsd" MetadataType="Schema" ID="a099c849-e785-4bab-8604-8a68b239edce" SourceId="1" SourceUrl="http://wsdl-crt.cert.sabre.com/wsdl/tpfc/xmldsig-core-schema.xsd" />
+    <MetadataFile FileName="wsse.xsd" MetadataType="Schema" ID="17803466-dd1f-46c6-86b0-05a1dcd8a662" SourceId="1" SourceUrl="http://wsdl-crt.cert.sabre.com/wsdl/tpfc/wsse.xsd" />
+    <MetadataFile FileName="envelope.xsd" MetadataType="Schema" ID="a25ef722-c5a9-4c1b-a7b8-394da6885d38" SourceId="1" SourceUrl="http://wsdl-crt.cert.sabre.com/wsdl/tpfc/envelope.xsd" />
+    <MetadataFile FileName="HotelPropertyDescriptionLLS21.xsd" MetadataType="Schema" ID="71254244-74f0-41e4-875d-5a753e2026c9" SourceId="1" SourceUrl="http://wsdl-crt.cert.sabre.com/wsdl/tpfc/HotelPropertyDescriptionLLS2.2.0RQ.xsd" />
+    <MetadataFile FileName="HotelPropertyDescriptionLLS2.wsdl" MetadataType="Wsdl" ID="db2b85dc-2030-4553-8365-39746b74bf43" SourceId="1" SourceUrl="http://wsdl-crt.cert.sabre.com/wsdl/tpfc/HotelPropertyDescriptionLLS2.2.0RQ.wsdl" />
+    <MetadataFile FileName="HotelPropertyDescriptionLLS22.xsd" MetadataType="Schema" ID="9fadf6dc-f081-4032-9479-050a28313dfb" SourceId="1" SourceUrl="http://wsdl-crt.cert.sabre.com/wsdl/tpfc/HotelPropertyDescriptionLLS2.2.0RS.xsd" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

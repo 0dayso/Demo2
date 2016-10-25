@@ -1,0 +1,124 @@
+﻿@using Omu.AwesomeMvc
+@using Omu.Awem
+
+@{
+    ViewBag.Title = "Home Page";
+}
+
+<link href="~/Content/AwesomeMvc.css" rel="stylesheet" />
+<link href="~/Content/awem.css" rel="stylesheet" />
+
+<link href="~/Content/common.css" rel="stylesheet" />
+
+
+<script src="~/Scripts/AwesomeMvc.js"></script>
+<script src="~/Scripts/awem.js"></script>
+<script src="~/Scripts/utils.js"></script>
+<script src="~/Scripts/Site.js"></script>
+
+<div class="jumbotron">
+    <h6>NET</h6>
+    
+</div>
+
+<div class="row">
+    <div class="col-md-4">
+        <h2>Getting started</h2>
+        <button type="button" value="Call Service" onclick="fnCallService();"  ></button>
+        <a href="@Url.Action("OrderConfirm", "Payment")">Confirm Order</a>
+        <div id="dvHotelData"></div>
+    </div>
+    <div>
+        <a href="#" onclick="fnWebApiCall();">Call Web Api Method</a>
+    </div>
+    <div>
+        <a href="#" onclick="testPop();">test popup</a>
+        
+    </div>
+
+    <div class="col-md-4">
+        <h2>Get more libraries</h2>
+        
+    </div>
+    <div class="col-md-4">
+        <h2>Web Hosting</h2>
+    </div>
+    @(Html.Awe().InitPopupForm()
+                    .Name("confirmedPopup")
+                    .Height(200)
+                    .Url(Url.Action("PopupConfirm"))
+                    .UseDefaultButtons(true)
+                            .OnLoad("fnWebApiCall"))
+</div>
+<script type="text/javascript">
+    function fnWebApiCall() {
+        $.ajax({
+            url: '@Url.Action("Get", "api/webapi", new { id= 4541 })',
+            type: "GET",
+            success: function (data) {
+            alert(data);
+        },
+        error: function (msg) { alert(msg); }
+    });
+    }
+
+    function testPop() {
+        awe.open('confirmedPopup');
+    }
+
+
+
+    function fnPaymentGatway() {
+        $.ajax({
+            url: "@Url.Action("OrderConfirm", "Payment")",
+            type: "html",
+            success: function (data) {
+                alert('Hi');
+            },
+            error: function (msg) { alert(msg); }
+        });
+    }
+
+    function fnCallService() {
+        $.ajax({
+            url: "http://itact-10-pc/stpsite/api/homeapi/SearchHotel",
+            type: "Get",
+            success: function (data) { 
+                $("#dvHotelData").html(data);
+            },
+            error: function (msg) { alert(msg); }
+        });
+    };    
+
+    function fnPopup() {
+        debugger;
+        awem.uiPopup('')
+        //awe.open("test_popup", { params: params, tag: { cont: cell } });
+        //cell.one('aweclose', function (e) {
+        //    if ($(e.target).is(cell.find('.awe-popup:first')))
+        //        nestrow.data('api').close();
+        //});
+
+        return awem.bootstrapPopup('');
+        awe.popup = function (o) {
+
+            
+
+            if (o.tag && o.tag.DropdownPopup) {
+                return awem.dropdownPopup(o);
+            } else if (o.tag && o.tag.Inline) {
+                return awem.inlinePopup(o);
+            } else if (popupMod == 'inline') {
+                return awem.inlinePopup(o);
+            } else if (popupMod == 'bootstrap') {
+                return awem.bootstrapPopup(o);
+            } else if (popupMod == 'awesome') {
+                return awem.dropdownPopup(o);
+            } else {
+                return awem.uiPopup(o);
+            }
+        };
+
+    }
+   
+</script>

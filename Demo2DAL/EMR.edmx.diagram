@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="bca8eabe61fb4f95b981f9a39199f11b" Name="Diagram1" ZoomLevel="18">
+        <EntityTypeShape EntityType="EMRModel.AppointmentLog" Width="1.5" PointX="3" PointY="2" IsExpanded="true" />
+        <EntityTypeShape EntityType="EMRModel.Appointment" Width="1.5" PointX="0.75" PointY="3.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="EMRModel.Branch" Width="1.5" PointX="3" PointY="13.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="EMRModel.BranchUser" Width="1.5" PointX="5.25" PointY="23.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EMRModel.BranchWorkingHour" Width="1.5" PointX="5.25" PointY="14.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="EMRModel.ClinicPractice" Width="1.5" PointX="7.5" PointY="20" IsExpanded="true" />
+        <EntityTypeShape EntityType="EMRModel.Clinic" Width="1.5" PointX="5.25" PointY="19.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="EMRModel.Company" Width="1.5" PointX="3" PointY="37.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="EMRModel.CompanyClass" Width="1.5" PointX="7.5" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="EMRModel.CompanyContractCoverage" Width="1.5" PointX="9.75" PointY="10.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="EMRModel.CompanyContractPatientShare" Width="1.5" PointX="0.75" PointY="8.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="EMRModel.CompanyContractPrice" Width="1.5" PointX="12.75" PointY="10.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="EMRModel.CompanyContract" Width="1.5" PointX="7.5" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EMRModel.EmailTemplate" Width="1.5" PointX="11.75" PointY="5.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="EMRModel.EventLog" Width="1.5" PointX="13.75" PointY="5.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="EMRModel.GroupBranch" Width="1.5" PointX="10.75" PointY="14.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="EMRModel.GroupPermission" Width="1.5" PointX="12.75" PointY="14.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="EMRModel.Group" Width="1.5" PointX="3" PointY="42.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="EMRModel.GroupUser" Width="1.5" PointX="5.25" PointY="31.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="EMRModel.InvoiceTemplate" Width="1.5" PointX="14.75" PointY="1.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="EMRModel.Language" Width="1.5" PointX="8" PointY="16.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EMRModel.Location" Width="1.5" PointX="0.75" PointY="18" IsExpanded="true" />
+        <EntityTypeShape EntityType="EMRModel.Lookup" Width="1.5" PointX="0.75" PointY="22.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="EMRModel.LookupType" Width="1.5" PointX="14.75" PointY="9.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="EMRModel.PatientFinancialDetail" Width="1.5" PointX="5.25" PointY="27.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="EMRModel.PatientPrescription" Width="1.5" PointX="3" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EMRModel.Patient" Width="1.5" PointX="3" PointY="19.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="EMRModel.PatientsInvoiceItem" Width="1.5" PointX="14.75" PointY="12.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="EMRModel.PatientsInvoice" Width="1.5" PointX="7.5" PointY="23.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="EMRModel.PatientsInvoicesPayment" Width="1.5" PointX="15.75" PointY="5.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="EMRModel.PatientsLocal" Width="1.5" PointX="10.25" PointY="22.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="EMRModel.PatientsMedicalHistory" Width="1.5" PointX="14.75" PointY="16.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="EMRModel.PatientTPlan" Width="1.5" PointX="9.75" PointY="2.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="EMRModel.Permission" Width="1.5" PointX="16.75" PointY="1.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="EMRModel.Practice" Width="1.5" PointX="5.25" PointY="10.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="EMRModel.Service" Width="1.5" PointX="7.5" PointY="8.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="EMRModel.Setting" Width="1.5" PointX="16.75" PointY="9.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="EMRModel.sysdiagram" Width="1.5" PointX="10.75" PointY="17.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="EMRModel.SystemTimeZone" Width="1.5" PointX="16.75" PointY="12.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="EMRModel.TPlanLog" Width="1.5" PointX="12" PointY="1.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="EMRModel.TreatmentProgram" Width="1.5" PointX="7.5" PointY="12.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="EMRModel.TreatmentProgramsService" Width="1.5" PointX="9.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EMRModel.User" Width="1.5" PointX="3" PointY="29.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="EMRModel.vw_Appointment" Width="1.5" PointX="16.75" PointY="15.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="EMRModel.vw_Branch" Width="1.5" PointX="18.75" PointY="1.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="EMRModel.vw_Clinic" Width="1.5" PointX="18.75" PointY="7.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="EMRModel.vw_ClinicPractice" Width="1.5" PointX="18.75" PointY="12.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="EMRModel.vw_CompaniesInvoices" Width="1.5" PointX="18.75" PointY="15.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="EMRModel.vw_Company" Width="1.5" PointX="12.75" PointY="20.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="EMRModel.vw_CompanyContractPrice" Width="1.5" PointX="18.75" PointY="20.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="EMRModel.vw_ContractCoverage" Width="1.5" PointX="20.75" PointY="1.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="EMRModel.vw_EventLogs" Width="1.5" PointX="20.75" PointY="5.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="EMRModel.vw_GroupBranch" Width="1.5" PointX="20.75" PointY="9.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="EMRModel.vw_InvoicePayments" Width="1.5" PointX="20.75" PointY="12.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="EMRModel.vw_Invoices" Width="1.5" PointX="20.75" PointY="15.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="EMRModel.vw_InvoiceTreatmentProgramServices" Width="1.5" PointX="14.75" PointY="21.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="EMRModel.vw_Location" Width="1.5" PointX="20.75" PointY="22.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="EMRModel.vw_Patient" Width="1.5" PointX="22.75" PointY="1.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="EMRModel.vw_PatientSharedPricelist" Width="1.5" PointX="22.75" PointY="13.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="EMRModel.vw_Prescription" Width="1.5" PointX="22.75" PointY="18.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="EMRModel.vw_Provider" Width="1.5" PointX="22.75" PointY="22.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="EMRModel.vw_Service" Width="1.5" PointX="24.75" PointY="1.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="EMRModel.vw_TreatmentPlan" Width="1.5" PointX="24.75" PointY="5.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="EMRModel.vw_TreatmentProgram" Width="1.5" PointX="24.75" PointY="10.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="EMRModel.vw_TreatmentProgramsService" Width="1.5" PointX="12.75" PointY="25.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="EMRModel.vw_User" Width="1.5" PointX="24.75" PointY="15.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="EMRModel.vw_UserGroupBranch" Width="1.5" PointX="14.75" PointY="25.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="EMRModel.vw_UsersPermission" Width="1.5" PointX="16.75" PointY="25.625" IsExpanded="true" />
+        <AssociationConnector Association="EMRModel.FK_VisitLogs_Appointments" ManuallyRouted="false" />
+        <AssociationConnector Association="EMRModel.FK_PatientPrescriptions_Appointments" ManuallyRouted="false" />
+        <AssociationConnector Association="EMRModel.FK_Branches_City" ManuallyRouted="false" />
+        <AssociationConnector Association="EMRModel.FK_Branches_Country" ManuallyRouted="false" />
+        <AssociationConnector Association="EMRModel.FK_BranchUsers_Branches" ManuallyRouted="false" />
+        <AssociationConnector Association="EMRModel.FK_BranchWorkingHours_Branches" ManuallyRouted="false" />
+        <AssociationConnector Association="EMRModel.FK_Clinics_Branches" ManuallyRouted="false" />
+        <AssociationConnector Association="EMRModel.FK_PatientsInvoices_Branches" ManuallyRouted="false" />
+        <AssociationConnector Association="EMRModel.FK_BranchUsers_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="EMRModel.FK_ClinicPractices_Clinics" ManuallyRouted="false" />
+        <AssociationConnector Association="EMRModel.FK_ClinicPractices_Practices" ManuallyRouted="false" />
+        <AssociationConnector Association="EMRModel.FK_PatientsInvoices_Clinics" ManuallyRouted="false" />
+        <AssociationConnector Association="EMRModel.FK_CompanyClass_Companies" ManuallyRouted="false" />
+        <AssociationConnector Association="EMRModel.FK_CompanyContracts_Companies" ManuallyRouted="false" />
+        <AssociationConnector Association="EMRModel.FK_CompanyContracts_InheritCompany" ManuallyRouted="false" />
+        <AssociationConnector Association="EMRModel.FK_PatientFinancialDetails_Companies" ManuallyRouted="false" />
+        <AssociationConnector Association="EMRModel.FK_CompanyContractCoverage_CompanyClasses" ManuallyRouted="false" />
+        <AssociationConnector Association="EMRModel.FK_ContractCoverage_CompanyClass" ManuallyRouted="false" />
+        <AssociationConnector Association="EMRModel.FK_ContractCoverage_Services" ManuallyRouted="false" />
+        <AssociationConnector Association="EMRModel.FK_ContractCoverage_TreatmentPrograms" ManuallyRouted="false" />
+        <AssociationConnector Association="EMRModel.FK_CompanyContractPrices_CompanyContracts" ManuallyRouted="false" />
+        <AssociationConnector Association="EMRModel.FK_CompanyContractPrices_Services" ManuallyRouted="false" />
+        <AssociationConnector Association="EMRModel.FK_CompanyContractPrices_TreatmentPrograms" ManuallyRouted="false" />
+        <AssociationConnector Association="EMRModel.FK_GroupUsers_Groups" ManuallyRouted="false" />
+        <AssociationConnector Association="EMRModel.FK_GroupUsers_Users" ManuallyRouted="false" />
+        <AssociationConnector Association="EMRModel.FK_PatientsLocal_Languages" ManuallyRouted="false" />
+        <AssociationConnector Association="EMRModel.FK_Patients_CityLocations" ManuallyRouted="false" />
+        <AssociationConnector Association="EMRModel.FK_Patients_CountryLocations" ManuallyRouted="false" />
+        <AssociationConnector Association="EMRModel.FK_Users_City" ManuallyRouted="false" />
+        <AssociationConnector Association="EMRModel.FK_Users_Country" ManuallyRouted="false" />
+        <AssociationConnector Association="EMRModel.FK_Patients_MaritalStatusLookups" ManuallyRouted="false" />
+        <AssociationConnector Association="EMRModel.FK_Patients_NationalityLookups" ManuallyRouted="false" />
+        <AssociationConnector Association="EMRModel.FK_Patients_OccupationLookups" ManuallyRouted="false" />
+        <AssociationConnector Association="EMRModel.FK_Patients_RelationshipLookups" ManuallyRouted="false" />
+        <AssociationConnector Association="EMRModel.FK_Patients_ReligionLookups" ManuallyRouted="false" />
+        <AssociationConnector Association="EMRModel.FK_Patients_SexLookups" ManuallyRouted="false" />
+        <AssociationConnector Association="EMRModel.FK_PatientFinancialDetails_Patients" ManuallyRouted="false" />
+        <AssociationConnector Association="EMRModel.FK_PatientsInvoices_Patients" ManuallyRouted="false" />
+        <AssociationConnector Association="EMRModel.FK_PatientsLocal_Patients" ManuallyRouted="false" />
+        <AssociationConnector Association="EMRModel.FK_PatientsInvoices_PracticeId" ManuallyRouted="false" />
+        <AssociationConnector Association="EMRModel.FK_PatientsInvoices_ProviderUsers" ManuallyRouted="false" />
+        <AssociationConnector Association="EMRModel.FK_TPlanLogs_PatientTPlans" ManuallyRouted="false" />
+        <AssociationConnector Association="EMRModel.FK_Services_Practices" ManuallyRouted="false" />
+        <AssociationConnector Association="EMRModel.FK_TreatmentPrograms_Practices" ManuallyRouted="false" />
+        <AssociationConnector Association="EMRModel.FK_TreatmentProgramsServices_Services" ManuallyRouted="false" />
+        <AssociationConnector Association="EMRModel.FK_TreatmentProgramsServices_TreatmentPrograms" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
