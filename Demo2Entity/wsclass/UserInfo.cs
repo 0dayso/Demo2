@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Demo2Entity.wsclass
 {
-    [Serializable()]
+    
     public class UserInfo
     {
         private long _userId = 0;
